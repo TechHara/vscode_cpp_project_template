@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Mac", // Mac or Linux
+            "includePath": [ // header search for intellisense
+                "${workspaceFolder}/**"
+            ],
+            "defines": [ // preprocessor defines
+                "DEBUG=1"
+            ],
+            "macFrameworkPath": [ // macOS only
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/g++", // to help intellisense
+            "cppStandard": "c++14" // c++11, c++14, c++17, etc
+        }
+    ],
+    "version": 4 // managed by extension; do not change
+}

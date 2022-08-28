@@ -1,0 +1,25 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build",
+            "command": "g++", // can be make, cmake, ninja, etc
+            "args": [ // arguments to the build command
+                "-std=c++14",
+                "-O0",
+                "-g", // required for debugging
+                "-o",
+                "main",
+                "main.cc"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": { // build or test group
+                "kind": "build",
+                "isDefault": true
+            },
+        }
+    ],
+    "version": "2.0.0"
+}
