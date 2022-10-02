@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/yKqutrX33Tc/0.jpg)](https://www.youtube.com/watch?v=yKqutrX33Tc)
+
 This is a minimal VSCode c++ project template.
 - .vscode/c_cpp_properties.json: c++ config file for intellisense
 - .vscode/tasks.json: build task for the project
